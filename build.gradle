@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'com.cudev'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'org.apache.tika', name: 'tika-core', version: '1.18'
+    compile group: 'org.apache.tika', name: 'tika-parsers', version: '1.18'
+    compile group: 'org.apache.tika', name: 'tika-parsers', version: '1.18'
+}
